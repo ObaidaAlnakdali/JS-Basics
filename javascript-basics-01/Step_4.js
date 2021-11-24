@@ -1,4 +1,10 @@
-name = prompt("Enter your name: ");
-surname = prompt("Enter your surname: ");
-city = prompt("Enter your city: ");
-alert("Name: " + name + "\nSurname: " + surname + "\nCity: " + city);
+let name = document.querySelector("#name");
+let surname = document.querySelector("#surname");
+let city = document.querySelector("#city");
+let button = document.querySelector("#validate");
+
+button.addEventListener("click", () => {
+    if (this.name != null && this.surname != null && this.city != null){
+        alert("Name: " + name.value + "\nSurname: " + surname.value + "\nCity: " + city.value);
+    }
+  });
