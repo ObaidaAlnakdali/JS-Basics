@@ -26,7 +26,7 @@ const removeSpaces = (text) => {
     // return text.trim();
 }
 const IsString = (text) => {
-    return text.IsString = true;
+    return typeof text === 'string';
 }
 
 const getExtension = (text) => {
