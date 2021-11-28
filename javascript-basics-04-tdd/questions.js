@@ -30,7 +30,7 @@ const IsString = (text) => {
 }
 
 const getExtension = (text) => {
-    return text.substr(text.indexOf(".") + 1);
+    return text.substring(text.indexOf(".") + 1);
 }
 
 const countSpaces = (text) => {
