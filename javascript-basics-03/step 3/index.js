@@ -8,11 +8,5 @@ for (let i = 0; i < color.length; i++) {
 }
 
 const changeColor = (classN, text) => {
-    if (classN.includes("green")) {
-        text.style.color = "green"
-    } else if (classN.includes("red")) {
-        text.style.color = "red"
-    } else if (classN.includes("blue")) {
-        text.style.color = "blue"
-    }
+    text.style.color = className.substr(className.indexOf(" "));
 }
