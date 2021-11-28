@@ -119,6 +119,6 @@ const sortArr = (social_arr) => {
 }
 
 const invertArr = (social_arr) => {
-    const sort = social_arr.reverse();
-    return sort;
+    const reverse = social_arr.reverse();
+    return reverse;
 }
