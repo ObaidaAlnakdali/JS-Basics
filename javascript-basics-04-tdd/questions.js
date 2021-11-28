@@ -35,7 +35,7 @@ const getExtension = (text) => {
 
 const countSpaces = (text) => {
     return text.split(" ").length - 1 ;
-}
+} 
 
 const InverseString = (text) => {
     return text.split("").reverse().join("");
